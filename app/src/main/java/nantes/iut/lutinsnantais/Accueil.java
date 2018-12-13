@@ -24,11 +24,10 @@ public class Accueil extends AppCompatActivity {
 
                 String prenom = tPrenom.getText().toString();
                 String sexe = tSexe.getText().toString();
-                String tempNaissance = tNaissance.getText().toString();
-                int annee_naissance = Integer.parseInt(tempNaissance);
+                String annee_naissance = tNaissance.getText().toString();
 
-                i.putExtra("prenom",prenom);
-                i.putExtra("sexe",sexe);
+                i.putExtra("prenom", prenom);
+                i.putExtra("sexe", sexe);
                 i.putExtra("annee_naissance", annee_naissance);
 
                 startActivity(i);

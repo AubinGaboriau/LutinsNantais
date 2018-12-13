@@ -7,6 +7,7 @@
     tools:context=".Liste">
 
     <ListView
+        android:id="@+id/listEnfant"
         android:layout_width="585dp"
         android:layout_height="810dp"
         android:layout_marginStart="8dp"
